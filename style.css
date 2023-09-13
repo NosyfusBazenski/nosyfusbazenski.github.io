@@ -11,12 +11,13 @@ body {
 
 /* navigation menu */
 nav {
-    border-radius: 20px 40px 60px;
+    border-radius: 80px 80px 85px;
     background: rgb(64, 189, 211);
    margin: 0 auto;
    margin-bottom: 20px;
     display: flex;
-    padding: 10px;
+    padding: 25px;
+    
 }
 h1 {
     display: flex;
@@ -40,7 +41,7 @@ a {
 
 /* main container area beneath menu */
 main {
-    background: rgba(216, 231, 8, 0.897);
+    background: rgba(143, 200, 214, 0.897);
     display: flex;
 }
 .sidebar {
@@ -84,7 +85,7 @@ h2, h3 {
 }
 
 #portfolio li:hover {
-    background: #eee;
+    background: #ee2020;
 }
 
 #portfolio a {
