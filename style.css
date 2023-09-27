@@ -12,7 +12,7 @@ body {
 
 /* navigation menu */
 nav {
-    border-radius: 90px 20px 90px;
+    border-radius: 90px 20px 90px; 
     background: rgb(64, 189, 211);
    margin: 0 auto;
    margin-bottom: 20px;
@@ -26,18 +26,22 @@ h1 {
     color: rgb(255, 255, 255);
     flex: 1;
     margin: 0;
+    text-shadow: 2px 5px 5px black;
 }
-#nav-ul {
-  
+#nav-ul :hover{
+  text-shadow: 5px 2px 5px red;
     list-style-image: none;
+    color: black;
+    transform: scale(1.75);
 }
-.nav-li {
+.nav-li  {
     display: inline-block;
     padding: 0 10px;
 }
-a {
+a  {
     text-decoration: none;
     color: #ffffff;
+    
     
 }
 
@@ -69,10 +73,11 @@ h2, h3 {
 }
 
 
-
   /* portfolio styles */
   .content h1 {
     color: black;
+   
+  
 }
 
 #portfolio {
@@ -87,6 +92,7 @@ h2, h3 {
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 10px;
+    text-shadow: 2px 2px 5px white;
 }
 
 #portfolio li:hover {
