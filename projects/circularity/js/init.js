@@ -32,7 +32,8 @@ var init = function (window) {
         }
 
         // TODO 3 / 7 : Call the drawCircle() function 
-           for (var i = 0; i <= 100; i++ ){
+          var cirlceamount = prompt("How many circles would you like?")
+        for (var i = 0; i <= cirlceamount; i++ ){
                 drawCircle([i])
            }
         ////////////////////////////////////////////////////////////
@@ -77,8 +78,14 @@ var init = function (window) {
                 if (circle.x > canvas.width) {
                   circle.x = 0;
                 }
-                if (circle.y < canvas.hieght) {
+                if (circle.x < 0) {
+                    circle.x = canvas.width;
+                  }
+                if (circle.y > canvas.height) {
                     circle.y = 0;
+                  }
+                if (circle.y < 0) {
+                    circle.y = canvas.height;
                   }
             };
 
